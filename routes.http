@@ -1,0 +1,29 @@
+POST http://localhost:3333/books
+Content-Type: application/json
+
+{
+    "title": "Harry Potter",
+    "description": "livro de fantasia",
+    "author": "Luan Dias",
+    "pages": 486
+}
+
+###
+
+GET  http://localhost:3333/books
+
+###
+
+PUT http://localhost:3333/books/f938d679-ef39-4deb-b77e-df8a7ee90b61
+Content-Type: application/json
+
+{
+    "title": "Casa de céu e sopro",
+    "description": "Livro sobre fantasia",
+    "author": "Sarah Mass",
+    "pages": "922"
+}
+
+###
+
+DELETE http://localhost:3333/books/a2508158-222b-40d4-86fe-95012d530221
