@@ -1,20 +1,20 @@
-POST http://localhost:3333/books
+POST https://node-do-zero-jg1y.onrender.com/books
 Content-Type: application/json
 
 {
-    "title": "Harry Potter",
+    "title": "O pequeno príncipe",
     "description": "livro de fantasia",
-    "author": "Luan Dias",
-    "pages": 486
+    "author": "Antonie de Saint-Exupéry",
+    "pages": 95
 }
 
 ###
 
-GET  http://localhost:3333/books
+GET  https://node-do-zero-jg1y.onrender.com/books
 
 ###
 
-PUT http://localhost:3333/books/f938d679-ef39-4deb-b77e-df8a7ee90b61
+PUT https://node-do-zero-jg1y.onrender.com/books/f938d679-ef39-4deb-b77e-df8a7ee90b61
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/books/a2508158-222b-40d4-86fe-95012d530221
+DELETE https://node-do-zero-jg1y.onrender.com/books/a2508158-222b-40d4-86fe-95012d530221
