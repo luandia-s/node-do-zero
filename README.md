@@ -13,10 +13,6 @@ Projeto feito através de uma vídeo aula do canal Rocketseat, ministrada por Di
 
 <br>
 
-<p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
